@@ -5,7 +5,7 @@ apt install -y apache2
 INSTANCE_ID=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
 
 cat <<EOF > /var/www/html/index.html
-<h1>Terraform Web Server 1</h1>
+<h1>Terraform Web Server 2</h1>
 <p>Instance ID: $INSTANCE_ID</p>
 EOF
 
